@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Thirdweb;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -19,7 +20,7 @@ public class MainMenu : MonoBehaviour {
             PlayerPrefs.SetInt("score3", 0);
         }
     }
-
+    
     public void PlayGame() {
         PlayerPrefs.SetString("playerName", playerName.text.ToString());
 		SceneManager.LoadScene("Level 1");
