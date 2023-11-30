@@ -1,0 +1,1021 @@
+fileFormatVersion: 2
+guid: 1ca1ce6b4e70444c89edc89d563312a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: monkey_armsup
+  - first:
+      213: 21300002
+    second: monkey_armsup_happy
+  - first:
+      213: 21300004
+    second: monkey_dead
+  - first:
+      213: 21300006
+    second: monkey_faceforward
+  - first:
+      213: 21300008
+    second: monkey_idle
+  - first:
+      213: 21300010
+    second: monkey_jump_1
+  - first:
+      213: 21300012
+    second: monkey_jump_2
+  - first:
+      213: 21300014
+    second: monkey_jump_3
+  - first:
+      213: 21300016
+    second: monkey_jump_4
+  - first:
+      213: 21300018
+    second: monkey_swing_2
+  - first:
+      213: 21300020
+    second: monkey_swing_3
+  - first:
+      213: 21300022
+    second: monkey_jump_swing
+  - first:
+      213: 21300024
+    second: monkey_push_2
+  - first:
+      213: 21300026
+    second: monkey_push_1
+  - first:
+      213: 21300028
+    second: monkey_run_1
+  - first:
+      213: 21300030
+    second: monkey_run_2
+  - first:
+      213: 21300032
+    second: monkey_run_3
+  - first:
+      213: 21300034
+    second: monkey_run_4
+  - first:
+      213: 21300036
+    second: monkey_run_5
+  - first:
+      213: 21300038
+    second: monkey_run_6
+  - first:
+      213: 21300040
+    second: monkey_run_7
+  - first:
+      213: 21300042
+    second: monkey_run_8
+  - first:
+      213: 21300044
+    second: monkey_throw_1
+  - first:
+      213: 21300046
+    second: monkey_throw_2
+  - first:
+      213: 21300048
+    second: monkey_walk_1
+  - first:
+      213: 21300050
+    second: monkey_walk_2
+  - first:
+      213: 21300052
+    second: monkey_walk_3
+  - first:
+      213: 21300054
+    second: monkey_walk_4
+  - first:
+      213: 21300056
+    second: monkey_walkaway_1
+  - first:
+      213: 21300058
+    second: monkey_walkaway_2
+  - first:
+      213: 21300060
+    second: monkey_walkaway_3
+  - first:
+      213: 21300062
+    second: monkey-armsup
+  - first:
+      213: 21300064
+    second: monkey-armsup-happy
+  - first:
+      213: 21300066
+    second: monkey-dead
+  - first:
+      213: 21300068
+    second: monkey-faceforward
+  - first:
+      213: 21300070
+    second: monkey-idle
+  - first:
+      213: 21300072
+    second: monkey-jump-1
+  - first:
+      213: 21300074
+    second: monkey-jump-2
+  - first:
+      213: 21300076
+    second: monkey-jump-3
+  - first:
+      213: 21300078
+    second: monkey-jump-4
+  - first:
+      213: 21300080
+    second: monkey-jump-swing-2
+  - first:
+      213: 21300082
+    second: monkey-jump-swing-3
+  - first:
+      213: 21300084
+    second: monkey-jump-swing
+  - first:
+      213: 21300086
+    second: monkey-push-2
+  - first:
+      213: 21300088
+    second: monkey-push-1
+  - first:
+      213: 21300090
+    second: monkey-run-1
+  - first:
+      213: 21300092
+    second: monkey-run-2
+  - first:
+      213: 21300094
+    second: monkey-run-3
+  - first:
+      213: 21300096
+    second: monkey-run-4
+  - first:
+      213: 21300098
+    second: monkey-run-5
+  - first:
+      213: 21300100
+    second: monkey-run-6
+  - first:
+      213: 21300102
+    second: monkey-run-7
+  - first:
+      213: 21300104
+    second: monkey-run-8
+  - first:
+      213: 21300106
+    second: monkey-throw-1
+  - first:
+      213: 21300108
+    second: monkey-throw-2
+  - first:
+      213: 21300110
+    second: monkey-walk-1
+  - first:
+      213: 21300112
+    second: monkey-walk-2
+  - first:
+      213: 21300114
+    second: monkey-walk-3
+  - first:
+      213: 21300116
+    second: monkey-walk-4
+  - first:
+      213: 21300118
+    second: monkey-walk-away-1
+  - first:
+      213: 21300120
+    second: monkey-walk-away-2
+  - first:
+      213: 21300122
+    second: monkey-walk-away-3
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monkey-armsup
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afef83b2814cf4c9e90825be9285b948
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-armsup-happy
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1344
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79eb0887593004bb4b2f2960396c4816
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-dead
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1344
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333327a42842145c4b976a3b8e8e4033
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-faceforward
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1344
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4891980c88ed64d72b4fc64461891f29
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-idle
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1344
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4691b85e22c941428b186e33a25e97d
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-jump-1
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1344
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bc3afd0511b44ab9a935eca52709c3
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-jump-2
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1344
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323373e84e2e54d17af999cd217f25fa
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-jump-3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a428ad025ef24447a9390caa09d3917a
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-jump-4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1008
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219f94eb6f0114e8b83271253228d919
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-jump-swing-2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1008
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7da829270a3a49b2ae3baf820a26c3e
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-jump-swing-3
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1008
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f40e3ce0ab1541a2a911d556475101e
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-jump-swing
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1008
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e4eb43e94a64d4ba35f14632132642
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-push-2
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1008
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb36dbe6dbaa04c8a879017d95349917
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-push-1
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1008
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b4e1f406e1c45a096319f9e01d1a88
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-run-1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e6886166890408daa746fb9fad735d
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-run-2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 672
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d7d594f18284bea89ffdfacf96de8c
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-run-3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 672
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569da1ea8730a4cf49f732d0f559a3ac
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-run-4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 672
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9181a1dfdfa84cf980f725e6c605c39
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-run-5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 672
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb16d9cf057bc47e3a13dacea14dc6b8
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-run-6
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 672
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502ebbc31a0194729bcae15e6d90112b
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-run-7
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 672
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c4e10b5ce9f4b41ba37bbb0eee12c7
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-run-8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11470dd456044e65a5feb746cf9af7e
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-throw-1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 336
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba7afdfd362940d68d187704600c3bc
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-throw-2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 336
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea29927f9b1434de886c215609edc068
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-walk-1
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 336
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f32ef0c5f1de47bd9389634bf86d865
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-walk-2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 336
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4147faaa3b55a4fbb91b68694a421167
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-walk-3
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 336
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756cb903aee73403ba90fde19bda474a
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-walk-4
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 336
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b75a4ea9b636410ebb5aa8a796ebae5
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-walk-away-1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5f4a6862f39463bbfeb3437e14f9ba
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-walk-away-2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42110b74f9f934b65a578a50e47fbc53
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monkey-walk-away-3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 280
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60be27d66d32d4655aa23cabf0fc7971
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3baaaa6fcaf274da7aad63bd48bf9002
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      monkey-armsup: 21300062
+      monkey-armsup-happy: 21300064
+      monkey-dead: 21300066
+      monkey-faceforward: 21300068
+      monkey-idle: 21300070
+      monkey-jump-1: 21300072
+      monkey-jump-2: 21300074
+      monkey-jump-3: 21300076
+      monkey-jump-4: 21300078
+      monkey-jump-swing: 21300084
+      monkey-jump-swing-2: 21300080
+      monkey-jump-swing-3: 21300082
+      monkey-push-1: 21300088
+      monkey-push-2: 21300086
+      monkey-run-1: 21300090
+      monkey-run-2: 21300092
+      monkey-run-3: 21300094
+      monkey-run-4: 21300096
+      monkey-run-5: 21300098
+      monkey-run-6: 21300100
+      monkey-run-7: 21300102
+      monkey-run-8: 21300104
+      monkey-throw-1: 21300106
+      monkey-throw-2: 21300108
+      monkey-walk-1: 21300110
+      monkey-walk-2: 21300112
+      monkey-walk-3: 21300114
+      monkey-walk-4: 21300116
+      monkey-walk-away-1: 21300118
+      monkey-walk-away-2: 21300120
+      monkey-walk-away-3: 21300122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
