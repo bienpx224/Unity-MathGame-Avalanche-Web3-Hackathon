@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Icons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: df5f93746b4af3947ad8c59dec1a8ae8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8a421000e1a672343be88c47be50dc83, type: 3}
+  - {fileID: 21300000, guid: 38bd7b00029e9cb4091e37e010fa381d, type: 3}
+  - {fileID: 21300000, guid: ce8aa320fb8ca4e4f839f21e911f9fe1, type: 3}
+  - {fileID: 21300000, guid: 20653420442418f49b3af8feccecbaba, type: 3}
+  - {fileID: 21300000, guid: c56e15203eaf17c428e404f0e3ac930b, type: 3}
+  - {fileID: 21300000, guid: 3336c920f28906b4d8b552efc3328dd0, type: 3}
+  - {fileID: 21300000, guid: 0842f08045803c04486b3118dd5399e3, type: 3}
+  - {fileID: 21300000, guid: 0effec80c4975b4469f966b392efecfa, type: 3}
+  - {fileID: 21300000, guid: 685afe80a21acd64dab82327108ed619, type: 3}
+  - {fileID: 21300000, guid: 456fde90d1f2012408b1241f0da130c7, type: 3}
+  - {fileID: 21300000, guid: d305dcb0b84d7314a82bddd18810ca54, type: 3}
+  - {fileID: 21300000, guid: 483b53c077f2b0648a7d443ff373df58, type: 3}
+  - {fileID: 21300000, guid: eede99c071778274a81a39277f0d5c35, type: 3}
+  - {fileID: 21300000, guid: 4887b9c0687473a41964440f93ce027b, type: 3}
+  - {fileID: 21300000, guid: 4302cbd0ff87bed45be0135bafceebdc, type: 3}
+  - {fileID: 21300000, guid: 892180e0b1369f141979fa6c0a8ba33f, type: 3}
+  - {fileID: 21300000, guid: fb29a1f0ea0b80f43b502ac6f2a18518, type: 3}
+  - {fileID: 21300000, guid: 57670a01b9bb018419a0829373f2dc13, type: 3}
+  - {fileID: 21300000, guid: ce8abf41eb7df024f8a39c982adbad48, type: 3}
+  - {fileID: 21300000, guid: 52cfbf41b143afa40bed4362dadd1c75, type: 3}
+  - {fileID: 21300000, guid: 953ce651e85111b4a9de33f87553f473, type: 3}
+  - {fileID: 21300000, guid: f30449518e45e67459eae0f59b58ec56, type: 3}
+  - {fileID: 21300000, guid: 790dfd61f91169a45af85151459bbf35, type: 3}
+  - {fileID: 21300000, guid: c4484381fcf886b479d9d855bbd9552a, type: 3}
+  - {fileID: 21300000, guid: 11b872a14b9784f41add50d993c24384, type: 3}
+  - {fileID: 21300000, guid: 85df5bb19af6e3341a35a83828aa27ce, type: 3}
+  - {fileID: 21300000, guid: fa602eb1f621941429207b5f2afad4a4, type: 3}
+  - {fileID: 21300000, guid: 624dc2c1a35ec1142b668694998c413b, type: 3}
+  - {fileID: 21300000, guid: 890bebc11b6cda24d969810e325c3311, type: 3}
+  - {fileID: 21300000, guid: 2307c1e189e54f041a647ce0a2763aa0, type: 3}
+  - {fileID: 21300000, guid: cae11c2291aae3a4aa0db37a6791ab10, type: 3}
+  - {fileID: 21300000, guid: ee7f80328c60a684db89ba4b673ac235, type: 3}
+  - {fileID: 21300000, guid: 6bf86f4257c464b48a26509d0a0a0aae, type: 3}
+  - {fileID: 21300000, guid: 53a4f5527abfd4747b77f53531293270, type: 3}
+  - {fileID: 21300000, guid: 7262e27249cd5ea4987cc952bb9bd3af, type: 3}
+  - {fileID: 21300000, guid: 60ce3dd2820050b4699afbaa075f2a8a, type: 3}
+  - {fileID: 21300000, guid: 5ef4a0e2fc26f0c4a988eff65772a9c1, type: 3}
+  - {fileID: 21300000, guid: 80031ce2fbfffdb459d55855c9f95893, type: 3}
+  - {fileID: 21300000, guid: cf000623a025edd47ae9a76beffe94d2, type: 3}
+  - {fileID: 21300000, guid: 297c61330ee167b4e9f843e99da2ec78, type: 3}
+  - {fileID: 21300000, guid: 7728de330b32a6746b66745a2e59855c, type: 3}
+  - {fileID: 21300000, guid: 94fee97370426294a861d05aaaf92fb4, type: 3}
+  - {fileID: 21300000, guid: 7ca46083a38c6084a9d34c0c6c932048, type: 3}
+  - {fileID: 21300000, guid: 0762b493a0790e64899c7fda310f2176, type: 3}
+  - {fileID: 21300000, guid: 580afcf3da1678b4595bb502e74affc3, type: 3}
+  - {fileID: 21300000, guid: bc93366419ebbe948a5c0d9cc5b6b86e, type: 3}
+  - {fileID: 21300000, guid: d0d8ad84c6bcdad408a8d42800962bc4, type: 3}
+  - {fileID: 21300000, guid: 0a236e8410fb4fe4ab95d2dbe010b4cf, type: 3}
+  - {fileID: 21300000, guid: 497755b4e6e58ce47a6833a42d0c9623, type: 3}
+  - {fileID: 21300000, guid: c013a5b4eb7179145ae6ad3da01ae887, type: 3}
+  - {fileID: 21300000, guid: 7a0e1db4727613349a637c6668e0eab4, type: 3}
+  - {fileID: 21300000, guid: 9ee2b8d48fc3a1544ba0354d18547168, type: 3}
+  - {fileID: 21300000, guid: 060b32f458f7fc74eae58929361ac2d5, type: 3}
+  - {fileID: 21300000, guid: cd277af45ba5adf449e19ecdba0493e7, type: 3}
+  - {fileID: 21300000, guid: 8ff63b45637a04642b3a33304c61a48c, type: 3}
+  - {fileID: 21300000, guid: 20730c45546722445ad2c6f9592e2bd0, type: 3}
+  - {fileID: 21300000, guid: 1a886f4593d854d489a5f3ce0e86bb34, type: 3}
+  - {fileID: 21300000, guid: 034dc0655cb4a99419548e8011381b16, type: 3}
+  - {fileID: 21300000, guid: 6c07f085e23d87f438696a7d1da87db0, type: 3}
+  - {fileID: 21300000, guid: d107e9a5cf659b54298f88f7bada6fe6, type: 3}
+  - {fileID: 21300000, guid: 03d9d5b5a44110746af3ab4cd6101417, type: 3}
+  - {fileID: 21300000, guid: 44dfdcb5958d31e41b04faa0bebdfa51, type: 3}
+  - {fileID: 21300000, guid: 680dd9c582350614f9c83bd982a151e0, type: 3}
+  - {fileID: 21300000, guid: 18f97b1694780cf4babd4ac20fedead1, type: 3}
+  - {fileID: 21300000, guid: 351d6146a7bb73248ae6d4ffca183844, type: 3}
+  - {fileID: 21300000, guid: 97efe666891953b49a80b0bc1b6611fb, type: 3}
+  - {fileID: 21300000, guid: c961d076d11244e4a97fd0802827e849, type: 3}
+  - {fileID: 21300000, guid: 0998497645348084fb6a0d349d6787b4, type: 3}
+  - {fileID: 21300000, guid: e2456786a7017134f888f214cfb7d8c3, type: 3}
+  - {fileID: 21300000, guid: 8ec790964beacdc40a6f162390bd0967, type: 3}
+  - {fileID: 21300000, guid: 6f83cc96bc61aa844aee146e563bfea2, type: 3}
+  - {fileID: 21300000, guid: f3a89aa66a9b3f54f9225d4048bd24da, type: 3}
+  - {fileID: 21300000, guid: 56868ea6d157c164c8008d990a64e744, type: 3}
+  - {fileID: 21300000, guid: 3f05c3c60f03dd747842781a4e6a24bd, type: 3}
+  - {fileID: 21300000, guid: 10aea5d6ea7fd6642ba29b9f6352e169, type: 3}
+  - {fileID: 21300000, guid: 7a1c4bf6d83b5814c84f20cf1cd9bb4b, type: 3}
+  - {fileID: 21300000, guid: 6331dff61e2ec05449349dbd7d3890c2, type: 3}
+  - {fileID: 21300000, guid: c3bc022745b27cc4da5e1698b8c7f303, type: 3}
+  - {fileID: 21300000, guid: 5eceda27b278c6846a1f27f1f011c563, type: 3}
+  - {fileID: 21300000, guid: aad00b67d56fce54081e24c204f4c6c8, type: 3}
+  - {fileID: 21300000, guid: debc0b67d9903534eb7899b898d92d39, type: 3}
+  - {fileID: 21300000, guid: b5d49c67854d37e4abfdd64ae24ad9a6, type: 3}
+  - {fileID: 21300000, guid: 58a28f67c71a11746a6fc46ef4487279, type: 3}
+  - {fileID: 21300000, guid: f9e6fd97a888fc644b34eb4960778553, type: 3}
+  - {fileID: 21300000, guid: 231ba0c7c5f2d144aada8870f44e7989, type: 3}
+  - {fileID: 21300000, guid: c698d8c717832e74eaebe59d703dfd4f, type: 3}
+  - {fileID: 21300000, guid: 9508dcd731ef3604cb13593308687cae, type: 3}
+  - {fileID: 21300000, guid: 19ba39080a8b0b0418dad84aace69bd1, type: 3}
+  - {fileID: 21300000, guid: c798721824141a5498c8718b2b437cef, type: 3}
+  - {fileID: 21300000, guid: c8d5ef385b5061547afe5f381787ca85, type: 3}
+  - {fileID: 21300000, guid: 8da35558df155664294055882e62943e, type: 3}
+  - {fileID: 21300000, guid: d16b6178feaf00b46910c1c9020cfeec, type: 3}
+  - {fileID: 21300000, guid: c0e4159846c2aa545a9b1c9df7762e0f, type: 3}
+  - {fileID: 21300000, guid: 05290798943b1444983095cd4c308d0d, type: 3}
+  - {fileID: 21300000, guid: e27d8ca8d46b4d741a6d9863e40e176e, type: 3}
+  - {fileID: 21300000, guid: 3c25d2c8b5b305140b8e219afba4ba5b, type: 3}
+  - {fileID: 21300000, guid: fa943dc82f72ffe4a895d9ac18d50496, type: 3}
+  - {fileID: 21300000, guid: 6ab398d88b5de5d4d9705ac934f4d32e, type: 3}
+  - {fileID: 21300000, guid: 1ed6bad84019dfe45bf211b0e5ffe16d, type: 3}
+  - {fileID: 21300000, guid: dc0a9109558598f4694b70df4df0702c, type: 3}
+  - {fileID: 21300000, guid: 643afc49c458443459c270b3edb9fcba, type: 3}
+  - {fileID: 21300000, guid: c190e659c750b2f409d81d07769e8a14, type: 3}
+  - {fileID: 21300000, guid: 58597179494679e418e2db20171cc08a, type: 3}
+  - {fileID: 21300000, guid: 63e89a79e9478ed4f834e565cdb16ed3, type: 3}
+  - {fileID: 21300000, guid: 080e568939527a248975827bb19b709b, type: 3}
+  - {fileID: 21300000, guid: aaa879b95c56983439cc4ecfd2eacf4d, type: 3}
+  - {fileID: 21300000, guid: 15d555c95fa84d64ba51366a83a2985e, type: 3}
+  - {fileID: 21300000, guid: 70ea19c9ea6f3884dbc2588c8edd72f2, type: 3}
+  - {fileID: 21300000, guid: 49078a1abcc1e7846887a2cc344dac98, type: 3}
+  - {fileID: 21300000, guid: d719795ae7ddf5f488335b261e7805de, type: 3}
+  - {fileID: 21300000, guid: cf63d16aaab39c5459a3c5c215ee32c6, type: 3}
+  - {fileID: 21300000, guid: a3612c7a7a6616546a0d73e20097f5f9, type: 3}
+  - {fileID: 21300000, guid: e68b70aa15339dc458e570001b90398f, type: 3}
+  - {fileID: 21300000, guid: 7e1717faafeae7b49a755210037a6b0b, type: 3}
+  - {fileID: 21300000, guid: eb720f2bb99aba74f97736c0b57bf821, type: 3}
+  - {fileID: 21300000, guid: 46d5cf5b0abd307459e88b760e75ed34, type: 3}
+  - {fileID: 21300000, guid: 866a897b9a3f2c34cb98c6b2f97810ac, type: 3}
+  - {fileID: 21300000, guid: 9893cc8bcc70f9c46aac24d3d0f0f0fe, type: 3}
+  - {fileID: 21300000, guid: 55bfe0dba2cdc5f498ab618a8f3ca585, type: 3}
+  - {fileID: 21300000, guid: 661090eb1908eda4ca5394c15730b098, type: 3}
+  - {fileID: 21300000, guid: 4b36961cf17ae4a49a391b24d8baf353, type: 3}
+  - {fileID: 21300000, guid: 96425d1c7f4d2ff4ca7877a70020ca25, type: 3}
+  - {fileID: 21300000, guid: af786d3ccaa581b4db35f7dd67a20926, type: 3}
+  - {fileID: 21300000, guid: 43b32f4ce0d3df841a2cc552f006f1d3, type: 3}
+  - {fileID: 21300000, guid: 5a04506cfeece7b49bf030e097b218a9, type: 3}
+  - {fileID: 21300000, guid: e57d278c7e90ad3499fc9e4bdee7fa62, type: 3}
+  - {fileID: 21300000, guid: d120fa8cf8e299342a7792ef6bc8975a, type: 3}
+  - {fileID: 21300000, guid: 1eb47c8c062f9e943a1b440f13f74eb1, type: 3}
+  - {fileID: 21300000, guid: 2b5e85bce77de6247862f0e21917f285, type: 3}
+  - {fileID: 21300000, guid: 6bb3820d4f6272c4d8f558427824ed29, type: 3}
+  - {fileID: 21300000, guid: 1597f56d36eef09458198eb5297ea0ea, type: 3}
+  - {fileID: 21300000, guid: 8b34f66dce744474eb9361a0698619fb, type: 3}
+  - {fileID: 21300000, guid: 8f5870cd03d4e834db7d92266ee61865, type: 3}
+  - {fileID: 21300000, guid: cf0869ddf54af864881bf2fbe4125a84, type: 3}
+  - {fileID: 21300000, guid: 9595ad2e351620b4789c50c10d266440, type: 3}
+  - {fileID: 21300000, guid: 37459e3eec4ba284d981c3adbbc4a419, type: 3}
+  - {fileID: 21300000, guid: 7dbc8f4e2e6deba4797d20d6a6a23975, type: 3}
+  - {fileID: 21300000, guid: 2a47707ef31f6df4682ea908bafd2b4e, type: 3}
+  - {fileID: 21300000, guid: b4c8ee7ed1cd3db4d9d71400b63f0ff0, type: 3}
+  - {fileID: 21300000, guid: 4088fe7e39ace63419da9b79841c3c1e, type: 3}
+  - {fileID: 21300000, guid: 60cea39ef9c28414e82b0c83088b1ac1, type: 3}
+  - {fileID: 21300000, guid: 595dd3ae670af7042ae4b556ace16854, type: 3}
+  - {fileID: 21300000, guid: 8e1a1bae9ce969740b0fb16a54cea534, type: 3}
+  - {fileID: 21300000, guid: d1e345ce45fe9c34c979877ad8e94415, type: 3}
+  - {fileID: 21300000, guid: da0efece769d7834f98ca52ae16e1387, type: 3}
+  - {fileID: 21300000, guid: 66f3fade0d62dad4b9ea29b41de60445, type: 3}
+  - {fileID: 21300000, guid: 10ab81ee9e10de947a917c43c5fcf6bc, type: 3}
+  - {fileID: 21300000, guid: a4c3abee583374344ba46ffcdd7c9618, type: 3}
+  - {fileID: 21300000, guid: 8704a5febb654de4dbf77c62a159f7e9, type: 3}
+  - {fileID: 21300000, guid: ec98331f2a99ac74fbc6f3c4e8c1ebf9, type: 3}
+  - {fileID: 21300000, guid: 446f3e1fe6a941c45a02765f06c1e5a2, type: 3}
+  - {fileID: 21300000, guid: 33274a2fc85917a42bec09dc334220a8, type: 3}
+  - {fileID: 21300000, guid: 2561ad2f66a912e4ca7790ebbb69dda6, type: 3}
+  - {fileID: 21300000, guid: 41b0b15f1b550244cb29e69d52c38836, type: 3}
+  - {fileID: 21300000, guid: da9b166f02f3cdf489b8b14bd73bc55a, type: 3}
+  - {fileID: 21300000, guid: 3390be9f382645f4e9e46a9112d877d5, type: 3}
+  - {fileID: 21300000, guid: d4ea20af4a64e1742910de596bb15139, type: 3}
+  - {fileID: 21300000, guid: 363c6dbfa2a072d4081b279bb8d3f020, type: 3}
+  - {fileID: 21300000, guid: 3ebda6cf00f96dc47974efc58b7f8236, type: 3}
+  - {fileID: 21300000, guid: 359a3ccf3e70b5045836e7a0b0902700, type: 3}
+  - {fileID: 21300000, guid: 4817becf8225c3d4bb49abc408d0656e, type: 3}
+  - {fileID: 21300000, guid: 924998df6bf75be469ea8c0fdea2f0b9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - NordicHunterArmorLight
+  - DivineArmor
+  - ChefCostume [ShowEars]
+  - ScavengerArmor
+  - LightLizardArmor
+  - AcornArmor [ShowEars]
+  - NordicHunterArmorLight
+  - MinerCostumeTypeB [ShowEars]
+  - BoarArmor
+  - DivineStaff
+  - NordicHunterArmorLight
+  - GhostSamuraiArmor
+  - MonsterHunterArmor
+  - DarkLordAxe
+  - ShadowHunterOutfit [ShowEars]
+  - DarkSteelArmor
+  - RenegadeArmor
+  - MinerCostumeTypeA [ShowEars]
+  - HeavyWolfArmor
+  - NightmareArmor
+  - HeavyScarabArmor
+  - AcornArmor [ShowEars]
+  - LightWolfArmor
+  - HeavyScarabArmor
+  - ScavengerArmor
+  - WindStaff
+  - HeavyWolfArmor
+  - GhostSamuraiArmor
+  - MouseArmor
+  - DivineArmor
+  - HeavyScarabArmor
+  - PontifexMantle [ShowEars]
+  - MinerCostumeTypeB [ShowEars]
+  - LightWolfArmor
+  - ClericMantle [ShowEars]
+  - PontifexMantle [ShowEars]
+  - DraconicArmor
+  - DarkLordArmor
+  - HeavyWolfArmor
+  - ChefCostume [ShowEars]
+  - DarkLordArmor
+  - DarkLordArmor
+  - NordicHunterArmorLight
+  - RenegadeArmor
+  - MonsterHunterArmor
+  - ScavengerArmor
+  - DarkSteelArmor
+  - DarkSteelArmor
+  - ShadowTunic
+  - SunWand
+  - GloryArmor [ShowEars]
+  - ShadowHunterOutfit [ShowEars]
+  - RenegadeArmor
+  - BoarArmor
+  - GloryArmor [ShowEars]
+  - ShadowTunic
+  - DraconicArmor
+  - WargArmor
+  - ShadowHunterSword
+  - HeavyScarabArmor
+  - NordicHunterArmorHeavy
+  - PilgrimageWand
+  - ShadowHunterOutfit [ShowEars]
+  - ShadowTunic
+  - GhostSamuraiArmor
+  - MouseArmor
+  - HeavyWolfArmor
+  - MinerCostumeTypeB [ShowEars]
+  - MouseArmor
+  - NordicHunterArmorLight
+  - LightWolfArmor
+  - WargArmor
+  - MonsterHunterArmor
+  - RenegadeArmor
+  - DarkSteelArmor
+  - DraconicArmor
+  - DivineArmor
+  - HeavyWolfArmor
+  - GhostSamuraiArmor
+  - GhostSamuraiSword
+  - ShadowTunic
+  - NightmareArmor
+  - PrimitiveWand
+  - RenegadeArmor [ShowEars] [FullHair]
+  - HeavyScarabArmor
+  - BlackBoarArmor
+  - DraconicArmor [FullHair]
+  - GhostSamuraiArmor
+  - GloryArmor [ShowEars]
+  - ScavengerArmor
+  - MinerCostumeTypeA [ShowEars]
+  - LightLizardArmor
+  - ShadowHunterOutfit [ShowEars]
+  - GloryArmor [ShowEars]
+  - ShadowTunic
+  - LightLizardArmor
+  - MonsterHunterArmor
+  - ShadowHunterHammer
+  - PontifexMantle [ShowEars]
+  - MinerCostumeTypeA [ShowEars]
+  - HonedWand
+  - PontifexMantle [ShowEars]
+  - MinerCostumeTypeB [ShowEars]
+  - RenegadeArmor
+  - LightLizardArmor
+  - DraconicArmor
+  - DivineSword
+  - BlackBoarArmor
+  - SpiritWand
+  - GloryArmor [ShowEars]
+  - BlackBoarArmor
+  - DraconicArmor
+  - DivineArmor
+  - ShadowHunterOutfit [ShowEars]
+  - MouseArmor
+  - MonsterHunterArmor
+  - WargArmor
+  - BlackBoarArmor
+  - BlackBoarArmor
+  - LightWolfArmor
+  - DarkLordArmor
+  - ThunderforgedScepter
+  - AcornArmor [ShowEars]
+  - DarkLordSword
+  - DarkSteelArmor
+  - BoneWand
+  - AcornArmor [ShowEars]
+  - GloryMace
+  - BoarArmor
+  - MinerCostumeTypeB [ShowEars]
+  - BoarArmor
+  - LightLizardArmor
+  - ClericMantle [ShowEars]
+  - WargArmor
+  - DivineArmor
+  - NordicHunterArmorHeavy
+  - NightmareArmor
+  - ScavengerArmor
+  - LightWolfArmor
+  - RenegadeArmor [ShowEars] [FullHair]
+  - PontifexMantle [ShowEars]
+  - MinerCostumeTypeA [ShowEars]
+  - GlorySword
+  - MinerCostumeTypeA [ShowEars]
+  - ClericMantle [ShowEars]
+  - BoarArmor
+  - NightmareArmor
+  - IronPole
+  - ChefCostume [ShowEars]
+  - RitualCane
+  - ChefCostume [ShowEars]
+  - NordicHunterArmorHeavy
+  - ClericMantle [ShowEars]
+  - NightmareArmor
+  - AcornArmor [ShowEars]
+  - MouseArmor
+  - DarkLordArmor
+  - ChefCostume [ShowEars]
+  - ClericMantle [ShowEars]
+  - NordicHunterArmorHeavy
+  - NordicHunterArmorHeavy
+  - WargArmor
+  m_RenderDataMap: {}
+  m_Tag: Icons
+  m_IsVariant: 0
