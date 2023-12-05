@@ -1,5 +1,6 @@
 
 using System;
+using System.Collections.Generic;
 using QRCoder;
 using Thirdweb;
 using UnityEngine;
@@ -14,18 +15,15 @@ public class UserDataManager : Singleton<UserDataManager>
         try
         {
             sdk = ThirdwebManager.Instance.SDK;
-            contract = sdk.GetContract(Constants.SmartContractAddress);
+            contract = sdk.GetContract(Constants.SmartContractAddress, Constants.SmartContractAddressABI);
         }
         catch (Exception e)
         {
             Debug.LogError("UserDataManager Start Error : " + e.ToString());
         }
         Debug.Log("UserDataManager Started!");
-
-        GetWalletBalance();
         
-        var data = await contract.Read<int>("getTopPlayers");
-        Debug.Log("data");
+
     }
 
     public async void GetWalletBalance()
@@ -33,5 +31,65 @@ public class UserDataManager : Singleton<UserDataManager>
         currencyValue = await sdk.wallet.GetBalance();
         Debug.Log("GetWalletBalance");
         Debug.Log(currencyValue);
+    }
+
+    public async void GetTopPlayers()
+    {
+        Debug.Log("Start GetTopPlayers");
+        
+        try
+        {
+            Debug.Log("Call Contract GetBalance()");
+            var data = await contract.Read<string>("getTopPlayers");
+            Debug.Log(data.ToString());
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("GetTopPlayer Error 2: " + e);
+        }
+    }
+
+    public async void TestGetValue()
+    {
+        Debug.Log("Start TestGetValue");
+        try
+        {
+            Debug.Log("Call Write testGetValue");
+            var data = await contract.Read<int>("testGetValue", 22);
+            Debug.Log(data.ToString());
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("TestGetValue Error 1: " + e);
+        }
+    }
+    public async void AddScore(int addScore = 0)
+    {
+        Debug.Log("Start AddScore");
+        try
+        {
+            Debug.Log("Call Write Add Score");
+            TransactionResult data = await contract.Write("updateScore", addScore);
+            Debug.Log(data.ToString());
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("AddScore Error 1: " + e);
+        }
+    }
+
+    public async void GetMyScore()
+    {
+        Debug.Log("Start getMyScore");
+        try
+        {
+            Debug.Log("Call Read getMyScore");
+            var data = await contract.Read<int>("getMyScore");
+            Debug.Log(data.ToString());
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("TestGetValue Error 1: " + e);
+        }
     }
 }

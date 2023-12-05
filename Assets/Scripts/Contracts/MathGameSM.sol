@@ -15,6 +15,7 @@ library LeaderboardLib {
 }
 
 contract MathGameSM {
+    address public owner;
     using LeaderboardLib for LeaderboardLib.Player[10];
 
     LeaderboardLib.Player[10] public topPlayers;
@@ -27,8 +28,6 @@ contract MathGameSM {
 
     address public tokenContractAddress =
         0x469940c22295554B0bEd5a1376FaeeD929bd82BF; // Thay thế bằng địa chỉ thực tế của smart contract token
-
-    // address public thisSmartContractDeployed = 0xa2cC373CB733d7Cfe211323FF9cF70803f43D38b;
 
     event ScoreUpdated(address indexed user, int256 newScore);
     event PrizeDistributed(address[] recipients, int256[] rewards);
@@ -47,8 +46,38 @@ contract MathGameSM {
     }
 
     constructor() {
+        // Gán địa chỉ của người triển khai smart contract làm chủ sở hữu
+        owner = msg.sender;
         deploymentTime = block.timestamp;
         lastPrizeDistribution = deploymentTime;
+    }
+
+    function getBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
+
+    function testGetValue(uint256 input) external pure returns (uint256) {
+        // Tăng giá trị đầu vào lên 1 và trả về
+        return input + 1;
+    }
+
+    function transferTokensToAddress(address to, uint256 amount) external {
+        // Check if the sender is the owner of the contract or some other authorization logic
+        require(msg.sender == owner, "Not authorized to transfer tokens");
+
+        // Check if the tokenContractAddress is set
+        require(
+            tokenContractAddress != address(0),
+            "Token contract address not set"
+        );
+
+        // Assuming tokenContract is ERC-20 compliant with a transfer function
+        // You may need to adjust this based on the actual interface of your token contract
+        // Also, consider checking the return value to handle any potential errors
+        (bool success, ) = address(tokenContractAddress).call(
+            abi.encodeWithSelector(0xa9059cbb, to, amount)
+        );
+        require(success, "Token transfer failed");
     }
 
     function updateScore(int256 scoreDelta) external {
@@ -64,6 +93,11 @@ contract MathGameSM {
         updateLeaderboard(user);
     }
 
+    function getMyScore() external view returns (int256) {
+        address user = msg.sender;
+        return userScores[user];
+    }
+
     function getTopPlayers()
         external
         view
@@ -72,25 +106,97 @@ contract MathGameSM {
         return topPlayers;
     }
 
+    // function updateLeaderboard(address user) internal {
+    //     // Find the position to insert the user in the leaderboard
+    //     uint256 insertIndex = 0;
+    //     while (
+    //         insertIndex < topPlayers.length &&
+    //         userScores[user] < topPlayers[insertIndex].score
+    //     ) {
+    //         insertIndex++;
+    //     }
+
+    //     // Shift the array to make space for the new user
+    //     topPlayers.pop();
+
+    //     for (uint256 i = topPlayers.length - 1; i > insertIndex; i--) {
+    //         topPlayers[i] = topPlayers[i - 1];
+    //     }
+
+    //     // Insert the user into the leaderboard
+    //     topPlayers[insertIndex] = LeaderboardLib.Player(user, userScores[user]);
+    // }
+
     function updateLeaderboard(address user) internal {
-        // Find the position to insert the user in the leaderboard
-        uint256 insertIndex = 0;
-        while (
-            insertIndex < topPlayers.length &&
-            userScores[user] < topPlayers[insertIndex].score
-        ) {
-            insertIndex++;
+        // Check if the user is already in topPlayers
+        bool userExists = false;
+        uint256 existingIndex = 0;
+
+        for (uint256 i = 0; i < topPlayers.length; i++) {
+            if (topPlayers[i].user == user) {
+                userExists = true;
+                existingIndex = i;
+                break;
+            }
         }
 
-        // Shift the array to make space for the new user
-        topPlayers.pop();
+        // If the user exists, update their score and reposition them in the leaderboard
+        if (userExists) {
+            // Save the existing user data
+            LeaderboardLib.Player memory existingPlayer = topPlayers[
+                existingIndex
+            ];
 
-        for (uint256 i = topPlayers.length - 1; i > insertIndex; i--) {
-            topPlayers[i] = topPlayers[i - 1];
+            // Update their score
+            existingPlayer.score = userScores[user];
+
+            // Remove the existing entry from the leaderboard
+            for (uint256 i = existingIndex; i < topPlayers.length - 1; i++) {
+                topPlayers[i] = topPlayers[i + 1];
+            }
+            topPlayers.pop();
+
+            // Find the new position to insert the user in the leaderboard
+            uint256 insertIndex = 0;
+            while (
+                insertIndex < topPlayers.length &&
+                existingPlayer.score < topPlayers[insertIndex].score
+            ) {
+                insertIndex++;
+            }
+
+            // Shift the array to make space for the user's new position
+            topPlayers.pop();
+
+            for (uint256 i = topPlayers.length - 1; i > insertIndex; i--) {
+                topPlayers[i] = topPlayers[i - 1];
+            }
+
+            // Insert the user into the leaderboard
+            topPlayers[insertIndex] = existingPlayer;
+        } else {
+            // Find the position to insert the user in the leaderboard
+            uint256 insertIndex = 0;
+            while (
+                insertIndex < topPlayers.length &&
+                userScores[user] < topPlayers[insertIndex].score
+            ) {
+                insertIndex++;
+            }
+
+            // Shift the array to make space for the new user
+            topPlayers.pop();
+
+            for (uint256 i = topPlayers.length - 1; i > insertIndex; i--) {
+                topPlayers[i] = topPlayers[i - 1];
+            }
+
+            // Insert the user into the leaderboard
+            topPlayers[insertIndex] = LeaderboardLib.Player(
+                user,
+                userScores[user]
+            );
         }
-
-        // Insert the user into the leaderboard
-        topPlayers[insertIndex] = LeaderboardLib.Player(user, userScores[user]);
     }
 
     function distributePrize() external onlyOnce threeDaysPassed {
