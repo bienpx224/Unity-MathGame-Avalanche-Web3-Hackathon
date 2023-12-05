@@ -78,7 +78,7 @@ public class UserDataManager : Singleton<UserDataManager>
         }
     }
 
-    public async void GetMyScore()
+    public async void GetMyScore(Action<string> onComplete = null)
     {
         Debug.Log("Start getMyScore");
         try
@@ -86,6 +86,7 @@ public class UserDataManager : Singleton<UserDataManager>
             Debug.Log("Call Read getMyScore");
             var data = await contract.Read<int>("getMyScore");
             Debug.Log(data.ToString());
+            onComplete?.Invoke(data.ToString());
         }
         catch (Exception e)
         {
