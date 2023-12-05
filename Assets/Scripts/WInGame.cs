@@ -35,5 +35,6 @@ public class WInGame : MonoBehaviour {
         winUI.SetActive(true);
         PlayerLife.mainAudio.Stop();
         AudioSource.PlayClipAtPoint(winSound, transform.position, 1f);
+        GameMenu.Instance.ShowPopupEndGame(true);
     }
 }

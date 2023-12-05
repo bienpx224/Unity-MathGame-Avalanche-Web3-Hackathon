@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour {
 	public Slider healthSlider;
     public AudioClip monkeyAudio;
 
-    float currentHealth;
+    public float currentHealth;
     PlayerController controlMovement;
     Animator myAnim;
     CapsuleCollider2D capsuleCollider;
@@ -64,7 +64,7 @@ public class PlayerHealth : MonoBehaviour {
     
 
 	void decrementLives() {
-		if (PlayerLife.lives == 0) PlayerLife.lives = 3;
+		if (PlayerLife.lives == 0) PlayerLife.lives = 1;
 		PlayerLife.countLives++;
         PlayerLife.lives--;
 	}

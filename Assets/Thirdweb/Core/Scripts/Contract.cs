@@ -242,6 +242,7 @@ namespace Thirdweb
             var result = await function.CallDecodingToDefaultAsync(args);
 
             var rawResults = new List<object>();
+            
 
             if (result[0].Result is List<ParameterOutput> parameterOutputs)
                 rawResults.AddRange(parameterOutputs.Select(item => item.Result));
@@ -249,7 +250,8 @@ namespace Thirdweb
                 rawResults.AddRange(result.Select(item => item.Result));
 
             ThirdwebDebug.Log("Raw Result: " + JsonConvert.SerializeObject(rawResults));
-
+            Debug.LogWarning("Raw Result: " + JsonConvert.SerializeObject(rawResults));
+            
             // Single
             if (rawResults.Count == 1)
             {

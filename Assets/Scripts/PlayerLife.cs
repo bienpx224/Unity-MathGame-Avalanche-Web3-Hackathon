@@ -29,11 +29,6 @@ public class PlayerLife : MonoBehaviour {
         }
     }
     
-    // Update is called once per frame
-    void Update () {
-        
-    }
-    
 	public void checkLife() {
 		if (PlayerLife.lives == 2 && playerLives.Length >= 2) {
 			removeLife(playerLives[2]);
@@ -60,5 +55,6 @@ public class PlayerLife : MonoBehaviour {
         playerUI.gameObject.SetActive(false);
         scoreUI.gameObject.SetActive(false);
         gameOverUI.gameObject.SetActive(true);
+        GameMenu.Instance.ShowPopupEndGame(false);
 	}
 }
