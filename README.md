@@ -9,7 +9,7 @@
 
 The idea is to bring a game product that is both entertaining, educational, rewarding, motivating, and integrating new technologies, giving users easy access to web3, with Blockchain technology.
 
-![img.png](img_1.png)
+![img.png](Docs/img_1.png)
 
 ## 🔬 Feautures
 
@@ -36,9 +36,9 @@ The idea is to bring a game product that is both entertaining, educational, rewa
 ## Gameplay : 
 Demo Game Play : 
 
-[![Watch the video](img.png)](https://www.youtube.com/watch?v=J7HZfMnOrK0&ab_channel=HiI%27mBrian)
+[![Watch the video](Docs/img.png)](https://www.youtube.com/watch?v=J7HZfMnOrK0&ab_channel=HiI%27mBrian)
 
-![img_2.png](img_2.png)
+![img_2.png](Docs/img_2.png)
 ## 💰 Futures : 
 - Kết hợp quảng cáo (Xem video nhận thưởng, thêm mạng, banner..) hoặc nhận đặt quảng cáo trong game để tối ưu nguồn thu lợi nhuận. 
 - Tích hợp thêm các game giáo dục rèn luyện tư duy khác, không chỉ đơn thuần về Toán học mà còn có thể về ngôn ngữ, chữ cái, logic, IQ,..
