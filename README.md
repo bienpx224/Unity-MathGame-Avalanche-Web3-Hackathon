@@ -13,18 +13,18 @@ The idea is to bring a game product that is both entertaining, educational, rewa
 
 ## 🔬 Feautures
 
-1. Educational entertainment:
+### 1. Educational entertainment:
 - The project is a system of mathematical-related games.
 - Help users experience computing, logical thinking, reflection training.
 - Improve computing, mind sensitivity through beautiful, intriguing games.
 
-2. Ranking system, rewards:
+### 2. Ranking system, rewards:
 - Top rankings of players with the highest score
 - The score is based on the player's strength.
 - Distribution of token rewards by time and ranking.
 
 
-3. Blockchain base deployment - Avalanche:
+### 3. Blockchain base deployment - Avalanche:
 - Data storage on Avalanche chain.
 - Cheap transaction cost = 1/10 on ETH 
 - Fast transaction processing speed 
@@ -33,7 +33,7 @@ The idea is to bring a game product that is both entertaining, educational, rewa
 
 <hr />
 
-## Gameplay : 
+## 🎮 Gameplay : 
 Demo Game Play : 
 
 [![Watch the video](Docs/img.png)](https://www.youtube.com/watch?v=J7HZfMnOrK0&ab_channel=HiI%27mBrian)
