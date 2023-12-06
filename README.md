@@ -13,22 +13,22 @@ The idea is to bring a game product that is both entertaining, educational, rewa
 
 ## 🔬 Feautures
 
-1. Game mang tính giải trí - giáo dục  :
-- Dự án là Hệ thống các game liên quan đến toán học.
-- Giúp người dùng trải nghiệm tính toán, tư duy logic, rèn luyện phản xạ. 
-- Cải thiện được khả năng tính toán, sự nhạy bén của trí óc thông qua các tựa game đẹp mắt, cuốn hút. 
+1. Educational entertainment:
+- The project is a system of mathematical-related games.
+- Help users experience computing, logical thinking, reflection training.
+- Improve computing, mind sensitivity through beautiful, intriguing games.
+
+2. Ranking system, rewards:
+- Top rankings of players with the highest score
+- The score is based on the player's strength.
+- Distribution of token rewards by time and ranking.
 
 
-2. Hệ thống xếp hạng, phần thưởng : 
-- Bảng xếp hạng Top các người chơi có điểm số cao nhất 
-- Cách tính điểm số dựa vào thực lực người chơi. 
-- Phân bố phần thưởng token theo thời gian và ranking. 
-
-3. Triển khai trên nền tảng Blockchain - Avalanche : 
-- Lưu trữ dữ liệu on chain Avalanche. 
-- Chi phí giao dịch rẻ = 1/10 trên ETH
-- Tốc độ xử lý giao dịch nhanh 
-- Dễ dàng tích hợp.
+3. Blockchain base deployment - Avalanche:
+- Data storage on Avalanche chain.
+- Cheap transaction cost = 1/10 on ETH 
+- Fast transaction processing speed 
+- Easy integration.
 
 
 <hr />
@@ -40,10 +40,10 @@ Demo Game Play :
 
 ![img_2.png](Docs/img_2.png)
 ## 💰 Futures : 
-- Kết hợp quảng cáo (Xem video nhận thưởng, thêm mạng, banner..) hoặc nhận đặt quảng cáo trong game để tối ưu nguồn thu lợi nhuận. 
-- Tích hợp thêm các game giáo dục rèn luyện tư duy khác, không chỉ đơn thuần về Toán học mà còn có thể về ngôn ngữ, chữ cái, logic, IQ,..
-- Tổ chức các cuộc thi, đặt cược giữa các người chơi, mini game khác. 
-- Thực hiện burn token thu được nhằm thúc đẩy giá trị. 
+- Combine ads (view video bonus, add network, banner...) or receive ads in the game to optimize the source of revenue.
+- Integrate other thinking training games, not just mathematics, but also language, letters, logic, IQ, etc.
+- Organizing competitions, betting between players, other mini-games.
+- Burn tokens to promote value.
 
 <hr />
 
